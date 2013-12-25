@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I00
+I01
 sS'pos'
 p13
 (lp14
@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V[img[pepper]]\u000a<<set $poop_threshold = 6>>\u000aYou are at your parents' house.\u000a\u000aYou should probably take your dog outside to use the bathroom.\u000a\u000a<<if ($poop > $poop_threshold)>> \u000aYou procrastination has had horrible consequences for everyone. The dog looks chargined, but you know in your heart the fault lies with you.\u000a<<set $pooped += 1>>\u000a<<set $poop = 0>>\u000a<<endif>>\u000a\u000a*[[Take her out]]\u000a*[[Nah|Start][$poop = $poop+1]]
+V[img[pepper]]\u000a<<set $poop_threshold = 6>>\u000aYou are at your parents' house.\u000a\u000aYou should probably take your dog outside to use the bathroom.\u000a\u000a<<if ($poop > $poop_threshold)>> \u000aYou procrastination has had horrible consequences for everyone. The dog looks chagrined, but you know in your heart the fault lies with you.\u000a<<set $pooped += 1>>\u000a<<set $poop = 0>>\u000a<<endif>>\u000a\u000a*[[Take her out]]\u000a*[[Nah|Start][$poop = $poop+1]]
 p20
 sS'title'
 p21
@@ -48,9 +48,9 @@ p24
 ((I2013
 I12
 I24
-I22
-I32
-I8
+I23
+I48
+I21
 I1
 I358
 I0
@@ -679,7 +679,7 @@ tp214
 Rp215
 sbsa(dp216
 g12
-I01
+I00
 sg13
 (lp217
 F305.0
