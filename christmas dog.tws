@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-S''
+VC:\u005cUsers\u005cBen\u005cSkyDrive\u005cTwine\u005cchristmasdog\u005cindex.html
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cBen\u005cSkyDrive\u005cTwine\u005cchristmas dog.tws
+VC:\u005cUsers\u005cBen\u005cSkyDrive\u005cTwine\u005cchristmasdog\u005cchristmas dog.tws
 p4
 sS'target'
 p5
@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I01
+I00
 sS'pos'
 p13
 (lp14
@@ -332,15 +332,15 @@ g12
 I00
 sg13
 (lp112
-F302.0
-aF230.0
+F300.0
+aF229.0
 asg15
 (itiddlywiki
 Tiddler
 p113
 (dp114
 g19
-VYou are back outside of your parents' house.\u000a\u000a<<if $pooped >= 1>>\u000aYour mission is complete. You can enter the house with a clear conscience.\u000a<<else>>\u000aThe dog has not pooped.\u000a<<endif>>\u000a\u000a*[[Go inside]]\u000a*[[Stay outside]]\u000a*[[Keep walking|Walk]]
+VYou are back outside of your parents' house.\u000a\u000a<<if $pooped >= 1>>\u000aYour mission is complete. You can enter the house with a clear conscience.\u000a<<else>>\u000aThe dog has not pooped.\u000a<<endif>>\u000a\u000a<<if $pooped >= 1>>\u000a*[[Go inside]]\u000a<<endif>>\u000a*[[Stay outside]]\u000a*[[Keep walking|Walk]]
 p115
 sg21
 VGo home
@@ -350,9 +350,9 @@ g24
 ((I2013
 I12
 I24
-I22
+I23
+I29
 I16
-I9
 I1
 I358
 I0
@@ -679,7 +679,7 @@ tp214
 Rp215
 sbsa(dp216
 g12
-I00
+I01
 sg13
 (lp217
 F305.0
@@ -732,15 +732,15 @@ g12
 I00
 sg13
 (lp232
-F300.0
-aF489.0
+F1132.0
+aF350.0
 asg15
 (itiddlywiki
 Tiddler
 p233
 (dp234
 g19
-VYou are back inside.\u000a\u000aThe dog shakes herself happily, then begins pulling against the leash. You unclip it, and she tears off into the house to make sure everyone still smells like themselves.\u000a\u000aIt is warm.\u000a\u000aThere is a fire in the fireplace, flickering behind the slighty sooty glass, and the tiles in front of it are pleasently warm beneath your sock feet.\u000a\u000aYou can hear your family puttering around the other rooms, wrapping presents, making food, or just being a family. They sound happy. You feel happy.\u000a\u000a[[Time to play video games]]
+VYou are back inside.\u000a\u000aThe dog shakes herself happily, then begins pulling against the leash. You unclip it, and she tears off into the house to make sure everyone still smells like themselves.\u000a\u000aIt is warm.\u000a\u000aThere is a fire in the fireplace, flickering behind the slighty sooty glass, and the tiles in front of it are pleasently warm beneath your sock feet.\u000a\u000aYou can hear your family puttering around the other rooms, wrapping presents, making food, or just being a family. They sound happy. You feel happy.\u000a\u000a<<if $happiness >= 3>>\u000aThe dog jumps into your lap. You pet her. You're both happy.\u000a<<endif>>\u000a\u000a[[Time to play video games]]
 p235
 sg21
 VGo inside
@@ -750,9 +750,9 @@ g24
 ((I2013
 I12
 I24
-I22
-I22
-I14
+I23
+I24
+I47
 I1
 I358
 I0
